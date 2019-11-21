@@ -1,0 +1,508 @@
+
+
+body {
+
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	background: black;
+	width: 100%;
+
+}
+
+
+
+/* ----- Estilo Encabezado -----*/
+
+/*----------------Estilo cuerpo--------------------*/
+
+
+header {
+
+	height: 125px;
+	background: black;
+	background-image: linear-gradient( 111.5deg,  rgba(187,232,255,1) 11.1%, rgba(4,78,116,1) 107.5% );
+}
+
+footer {
+
+	background:rgba(0,0,0,1);
+}
+
+/* ----- Estilo Encabezado -----*/
+.ContHeader{
+
+	position: relative;
+	width: 100%;
+	height: 125px;
+}
+
+
+.Logo-Header{
+	
+	width: 100%;
+	height: 125px;
+	background-image: url("../images/Logo1.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	overflow: hidden;
+}
+
+.NavBar, .Menu {
+
+	width: 100%;
+	text-align: center;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+	background: rgba(0,0,0,0.3);
+	overflow: hidden;
+}
+
+.NavBar {
+
+	margin-top: 80px;
+	background-image: linear-gradient( 111.5deg,  rgba(187,232,255,1) 11.1%, rgba(4,78,116,1) 107.5% );
+
+}
+
+.Menu ul{
+
+	margin: 0;
+	display: flex;
+	list-style: none;
+	padding: 0px;
+	justify-content: center;
+}
+
+.Menu li a {
+
+	font-family: 'Stylish', sans-serif;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 17px;
+	color: #fff;
+}
+
+.Menu ul li {
+
+	padding: 9px;
+}
+
+
+
+
+
+
+
+/* ----- Diseño Foter ----- */
+.ContPiePagina {
+
+	width: 100%;
+
+}
+
+.ContPiePagina p {
+	
+	margin: 0;	
+	color: white;
+	font-size: 14px;
+	text-align: center;
+}
+
+#By {
+	font-size: 10px;
+}
+
+#DeltaG {
+	text-decoration: none;
+}
+
+
+/*-----------Contenedor de la pagina ---------------*/
+ .Cont-PagCont {
+
+  background: yellow;
+  width: 100%;
+  height: 710px;
+  /*IMPORTANTE*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../images/imgPag.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+
+  
+	
+}
+
+.Cont-Gradiente{
+
+	width: 100%;
+	height: 100%;
+	background-image: linear-gradient( 111.5deg,  rgba(187,232,255,0.7) 11.1%, rgba(4,78,116,0.7) 107.5% );
+	display:flex;
+	justify-content: center;
+  	align-items: center;
+  	overflow: hidden;
+}
+
+.Cont-Cuadro{
+
+	background: black;
+	width: 80%;
+	height: 520px;
+
+	-webkit-box-shadow: 0px 2px 14px 4px rgba(0,0,0,0.75);
+    /*-moz-box-shadow: 0px 2px 14px 4px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 14px 4px rgba(0,0,0,0.75);*/
+
+
+
+	
+}
+
+.Cont-Titulo{
+
+  background: black;
+  width: 100%;
+  height: 10%;
+  padding-top: 15px;
+  text-align: center;
+  
+   border-top-left-radius: 15px;
+   border-top-right-radius: 15px;
+
+
+}
+
+.Cont-Titulo p{
+	margin: 0px;
+	color: white;
+	font-size: 27px;
+}
+
+.Cont-Contacto{
+
+	background: rgb(7, 154, 255);
+	/*background: rgb(225, 227, 227);
+	background: rgb(74, 90, 244);*/
+	width: 100%;
+	height:90%;
+	display:inline-flex;
+
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	/*-moz-border-radius: 5px ;
+	-webkit-border-radius: 5px;*/
+
+}
+
+/*---------------ContMensaje--------------------*/
+
+.Cont-Mensaje{
+
+	background: rgb(255,255,255);
+	/*background: rgb(225, 227, 227);
+	background: rgb(74, 90, 244);*/
+	width: 80%;
+	height:100%;
+
+	/*-moz-border-radius: 5px ;
+	-webkit-border-radius: 5px;*/
+}
+
+.Titulo-Mensaje{
+
+	margin-top: 5px;
+	text-align: center;
+	margin-bottom: 20px;
+
+}
+
+.Titulo-Mensaje p {
+
+	margin: 0;
+	padding: 0;
+	padding-top:  5px;
+	font-family: 'Stylish', sans-serif;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 20px;
+	color: black;
+
+}
+
+
+#imputMensaje{
+
+	margin: 0 auto;
+	margin-bottom: 20px;
+	width: 50%;
+	height: 30px;
+	background-color: black;
+	margin-left: 25%;
+	margin-right: 25%;
+	color: rgb(161, 176, 178);
+	font-size: 17px;
+}
+
+.Div-LM p{
+
+	margin: 0;
+	padding: 0;
+
+}
+.Div-LM #imputMensaje:nth-child(1){
+	padding: 0;
+	color: rgb(161, 176, 178);
+	text-align:left;
+	height: 140px;
+
+}
+
+.Div-BM #imputMensaje:nth-child(1){
+
+	padding: 0;
+	color: rgb(0,0,0);
+	text-align:center;
+	height: 40px;
+	width: 20%;
+	background-color: rgb(7, 154, 255);
+	font-size: 20px;
+	font-family: 'Karla', sans-serif;
+	font-family: 'Kaushan Script', cursive;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+
+
+
+
+/*-------------Contactos Disponibles-------------------*/
+
+.Cont-Contactos{
+
+	background: rgb(7, 154, 255);
+	/*background: rgb(225, 227, 227);
+	background: rgb(74, 90, 244);*/
+	width: 20%;
+	height: 100%;
+
+	border-bottom-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+
+
+}
+
+.Contactos-Titulo{
+
+	margin-top: 5px;	
+  	width: 100%;
+  	height: 11%;
+  	text-align: center;
+
+}
+
+.Contactos-Titulo p{
+
+	margin:0;
+	padding: 0;
+	padding-top:  5px;
+	font-family: 'Stylish', sans-serif;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 20px;
+	color: black;
+}
+
+.CC-Contacto{
+
+	height: 52px;
+	width: 30%;
+	margin-top: 15%;
+	margin-left: 35%;
+	margin-right: 35%;
+
+}
+
+.CC-Contacto img{
+
+	width: 100%;
+	height: 100%;
+
+}
+
+.Contactos-Cuadro div:nth-child(2){
+
+	display: none;
+
+}
+
+.Contactos-Cuadro div:nth-child(4){
+
+	width: 80%;
+	height: 100px;
+	margin-top: 60px;
+	margin-left: 10%;
+	margin-right: 10%;
+	
+
+}
+
+/*--------------------ContenidoCamposParaMensaje------------------*/
+
+/*---------------------------Responsive ------------------------------*/
+
+/*---------------------------Responsive para milaptop ------------------------------*/
+
+/* Dispositivos Muy Pequeños (Telefónos Menor A 360px) */
+@media(max-width:360px){
+
+}
+
+/* Dispositivos Muy Pequeños (Telefónos Mayor A 360px) */
+@media(min-width:360px){
+
+}
+
+
+
+/* Dispositivos Medianos (Mayores A 768px)*/
+@media(max-width:768px){
+
+ .Cont-PagCont {
+
+
+  height: 1300px;
+}
+
+.Cont-Contacto{
+
+	display: block;
+
+}
+
+.Cont-Cuadro{
+	height: 1100px;
+
+}
+
+.Cont-Mensaje{
+
+	
+	/*background: rgb(225, 227, 227);
+	background: rgb(74, 90, 244);*/
+	width: 100%;
+	height:55%;
+	display: block;
+}
+
+.Cont-Contactos{
+
+	/*background: rgb(225, 227, 227);
+	background: rgb(74, 90, 244);*/
+	width: 100%;
+	height:45%;
+	display: block;
+
+}
+
+
+
+.CC-Contacto {
+
+	width: 27%;
+	height: 72px;
+	margin-top: 32px;
+
+}
+
+#imputMensaje{
+
+	height: 30px;
+	width: 60%;
+	margin-left: 20%;
+	margin-right: 20%;
+
+}
+
+
+.Div-LM #imputMensaje:nth-child(1){
+
+	width: 60%;
+	margin-left: 20%;
+	margin-right: 20%;
+
+}
+
+.Contactos-Cuadro div:nth-child(4){
+
+	width: 60%;
+	height: 100px;
+	margin-top: 60px;
+	margin-left: 20%;
+	margin-right: 20%;
+	
+
+}
+
+
+}
+
+/* Dispositivos Pequeños (Tablets Y Telefonos Mayor A 600px) */
+@media(max-width:600px){
+
+#imputMensaje{
+
+	height: 35px;
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+
+}
+
+
+
+.Div-LM #imputMensaje:nth-child(1){
+
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+
+}
+
+
+/*----------------ContContacto--------------------*/
+
+.Contactos-Cuadro div:nth-child(4){
+
+	width: 60%;
+	height: 100px;
+	margin-top: 60px;
+	margin-left: 20%;
+	margin-right: 20%;
+	
+
+}	
+
+
+}
+	
+/* Dispositivos Grandes (Laptop/Escritorio Mayores A 992px) */
+@media(min-width:992px){
+
+}
+
+/* Dispositivos ExtraGrandes (Mayores A 1200px) */
+@media(min-width:1200px){
+
+}
+
+
+
+
+

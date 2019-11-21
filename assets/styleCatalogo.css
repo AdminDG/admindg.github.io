@@ -1,0 +1,492 @@
+body {
+
+	margin: 0;
+	font-size: 100%;
+	background-color: #fff;
+}
+
+header {
+
+	height: 125px;
+	background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(35,35,35,1) 0%, rgba(17,57,57,1) 90% );
+
+}
+
+a {
+
+	text-decoration: none;
+}
+
+footer {
+
+	background:rgba(0,0,0,1);
+}
+
+
+/* ----- Estilo Encabezado -----*/
+.ContHeader{
+
+	position: relative;
+	width: 100%;
+	height: 125px;
+}
+
+.Logo-Header{
+	
+	width: 100%;
+	height: 125px;
+	background-image: url("../images/Logo1.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	overflow: hidden;
+}
+
+.NavBar, .Menu {
+
+	width: 100%;
+	text-align: center;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+	background: rgba(0,0,0,0.3);
+	overflow: hidden;
+}
+
+.NavBar {
+
+	margin-top: 80px;
+	background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(35,35,35,1) 0%, rgba(17,57,57,1) 90% );
+
+
+}
+
+.Menu ul{
+
+	margin: 0;
+	display: flex;
+	list-style: none;
+	padding: 0px;
+	justify-content: center;
+}
+
+.Menu li a {
+
+	font-family: 'Stylish', sans-serif;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 17px;
+	color: #fff;
+}
+
+.Menu ul li {
+
+	padding: 9px;
+}
+
+/* ----- Estilo ContCategorias -----*/
+.Categoria-Titulo {
+
+	width: 100%;
+
+}
+
+.Categoria-Titulo p {
+
+	margin: 0;
+	padding-bottom: 20px;
+	margin-top: 20px;
+	text-align: center;
+	font-size: 25px;
+	font-family: 'Open Sans',sans-serif;
+	font-weight: bold;
+	color:rgb(60, 143, 249);
+}
+
+.Categoria {
+
+	margin-bottom:20px;
+	height: 230px;
+	width:90%;
+	margin-left: 5%;
+	box-shadow: 7px 7px 7px rgba(0,0,0,0.5);
+	overflow: hidden;
+}
+
+.Img-Categoria {
+
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+#CT1{
+
+	background-image: url("../images/txt.jpg");
+	background-size: 70% 90%;
+	background-position: center;
+
+}
+
+#CT2{
+
+	background-image: url("../images/Bolsillo.jpg");
+}
+
+#CT3{
+
+	background-image: url("../images/Fechadores.jpg");
+}
+
+#CT4{
+
+	background-image: url("../images/Numerador.jpg");
+	background-size: 70% 90%;
+	background-position: center;
+}
+
+#CT5 {
+
+	background-image: url("../images/CAT.jpg");
+}
+
+.Nombre-Categoria {
+
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.Nombre-Categoria h1 {
+
+	margin: 0;
+	text-align: center;
+}
+
+.Nombre-Categoria-Int {
+
+	
+	width: 100%;
+	height: 30%;
+	margin-top: 165px;
+	overflow: hidden;
+	/*background-color: rgba(0,0,0,0.6);*/
+
+	background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(35,35,35,0.9) 0%, rgba(17,57,57,0.9) 90% );
+	}
+
+.Nombre-Categoria-Int h1 {
+
+	margin: 0;
+	color: white;
+	padding-top: 20px;
+	text-align: center;
+	font-size: 30px;
+}
+
+/* ----- ContPie ----- */
+.ContPie {
+
+	width: 100%;
+	background-image: url(../images/FP3.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.prueba {
+
+	width: 100%;
+	height: 100%;
+	background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(35,35,35,0.4) 0%, rgba(17,57,57,0.4) 90% );
+
+}
+
+.Pie-Logo {
+
+	width: 50%;
+	height: 300px;
+
+}
+
+.Pie-Logo img {
+
+	width: 100%;
+	height: 100%;
+
+}
+
+.Pie-Texto1 p, .Pie-Titulo p{
+
+	padding-left: 5%;
+	padding-right: 5%;
+	margin: 0;
+	color: white;
+	text-align: left;
+	font-size: 22px;
+	font-family: 'Barlow Condensed', sans-serif;
+}
+
+.Pie-Cent, .Pie-Titulo, .Pie-Lista {
+
+	width: 100%;
+}
+
+.Pie-Titulo p{
+
+	margin-top: 40px;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.Pie-Lista {
+
+	width: 100%;
+}
+
+.Pie-Lista p {
+
+	margin:0;
+	padding-left: 5%;
+	padding-top: 10px;
+}
+
+.Pie-Lista p a {
+
+	text-decoration: none;
+	color: white;
+	font-size: 22px;
+	font-family: 'Barlow Condensed', sans-serif;
+}
+
+.Pie-Lista p:hover {
+
+	cursor: pointer;
+}
+
+/* ----- Diseño Foter -----*/
+.ContPiePagina {
+
+	width: 100%;
+
+}
+
+.ContPiePagina p {
+	
+	margin: 0;	
+	color: white;
+	font-size: 14px;
+	text-align: center;
+}
+
+#By {
+	font-size: 10px;
+}
+
+#DeltaG {
+	text-decoration: none;
+}
+
+/* Dispositivos Muy Pequeños (Telefónos Menor A 360px) */
+@media(max-width:360px){
+
+	/* ----- Estilo Menu -----*/
+	.Menu li a {
+
+		font-size: 20px;
+	}
+
+	/* ----- Estilo Seccion -----*/
+	.Categoria:hover {
+
+		cursor: pointer;
+		width:94%;
+		height: 230px;
+		margin-left:  3%;
+	}
+	
+	/* ----- Estilo Pie -----*/
+	.Pie-Logo {
+
+	width: 85%;
+	height: 300px;
+
+	}
+
+	.Pie-Texto1 p {
+
+		text-align: justify;
+	}
+
+}
+
+/* Dispositivos Muy Pequeños (Telefónos Mayor A 360px) */
+@media(min-width:360px){
+
+	.Menu li a {
+
+		font-size: 20px;
+	}
+
+	.Categoria{
+
+		height: 290px;
+	}
+
+	.Nombre-Categoria-Int {
+
+		margin-top: 210px;
+	}
+
+	.Categoria:hover {
+
+		cursor: pointer;
+		width:94%;
+		height: 290px;
+		margin-left:  3%;
+	}
+
+	.Pie-Logo {
+
+	width: 70%;
+	height: 300px;
+
+	}
+
+	.Pie-Texto1 p {
+
+		text-align: justify;
+		font-size: 28px;
+	}
+
+	.Pie-Titulo p{
+
+		font-size: 34px;
+	}
+
+	.Pie-Lista p a  {
+
+		font-size: 25px;
+	}
+
+}
+
+/* Dispositivos Pequeños (Tablets Y Telefonos Mayor A 600px) */
+@media(min-width:600px){
+
+	/* ----- Estilo Menu -----*/
+	.Menu li a {
+
+		font-size: 26px;
+
+	}
+
+	.Menu ul li {
+
+		padding: 30px;
+		padding-bottom: 9px;
+		padding-top: 9px;
+
+	}
+
+	/* ----- Estilo Categorias -----*/
+	.Categoria {
+
+		display: inline-block;
+		width: 45%;
+		margin-left: 3%;
+		height: 280px;
+	}
+
+	.Categoria-Titulo p{
+
+		font-size: 40px;
+	}
+
+	.Nombre-Categoria-Int {
+
+		margin-top: 200px;
+	}
+
+
+	.Categoria:hover {
+
+		width: 45%;
+		height: 275px;
+		margin-left:  3%;
+	}
+
+	/* ----- Estilo ContPie -----*/
+	.Pie-Logo {
+
+		width: 70%;
+		height: 300px;
+
+	}
+
+	.Pie-Texto1 p, .Pie-Titulo p{
+
+		font-size: 25px;
+	}
+
+	/* ----- Estilo Pie De Pagína -----*/
+	
+	.Pie-Lista p a {
+
+		font-size: 28px;
+	}
+
+	.ContPiePagina p {
+
+		font-size: 18px;
+	}
+
+	#By {
+
+		font-size: 13px;
+	}
+}
+
+/* Dispositivos Medianos (Mayores A 768px)*/
+@media(min-width:768px){
+
+	.Pie-Texto1 p, .Pie-Titulo p{
+
+		font-size: 30px;
+	}
+
+}
+
+/* Dispositivos Grandes (Laptop/Escritorio Mayores A 992px) */
+@media(min-width:992px){
+
+	.Pie-Logo {
+
+		width: 60%;
+		height: 300px;
+
+	}
+
+	.Pie-Texto1 p, .Pie-Titulo p{
+
+		font-size: 36px;
+	}
+
+	.Pie-Lista p a  {
+
+		font-size: 30px;
+	}
+
+}
+
+/* Dispositivos ExtraGrandes (Mayores A 1200px) */
+@media(min-width:1200px){
+
+	.Pie-Logo {
+
+		width: 50%;
+		height: 300px;
+
+	}
+
+}

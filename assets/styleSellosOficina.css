@@ -1,0 +1,463 @@
+body {
+
+	margin: 0;
+	font-size: 100%;
+	background: #fff;
+}
+
+header {
+
+	height: 125px;
+	background: black;
+}
+
+a {
+
+	text-decoration: none;
+}
+
+footer {
+
+	background:rgba(0,0,0,1);
+}
+
+
+/* ----- Estilo Encabezado -----*/
+.ContHeader{
+
+	position: relative;
+	width: 100%;
+	height: 125px;
+}
+
+
+.Logo-Header{
+	
+	width: 100%;
+	height: 125px;
+	background-image: url("../images/Logo1.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	overflow: hidden;
+}
+
+.NavBar, .Menu {
+
+	width: 100%;
+	text-align: center;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+	background: rgba(0,0,0,0.3);
+	overflow: hidden;
+}
+
+.NavBar {
+
+	margin-top: 80px;
+
+}
+
+.Menu ul{
+
+	margin: 0;
+	display: flex;
+	list-style: none;
+	padding: 0px;
+	justify-content: center;
+}
+
+.Menu li a {
+
+	font-family: 'Stylish', sans-serif;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 17px;
+	color: #fff;
+}
+
+.Menu ul li {
+
+	padding: 9px;
+}
+
+/* ----- Diseño ContCatalogo -----*/
+.ContCatalogo {
+
+	width: 100%;
+}
+
+.Titulo-Categoria{
+
+	width: 100%;
+	height: 50px;
+}
+
+.Titulo-Categoria h1{
+
+	margin: 0;
+	font-size: 23px;
+	padding-top: 10px;
+	text-align: center;
+	font-family: 'Stylish', sans-serif;
+	color: rgb(7,47,255);
+}
+
+.Fila-Producto {
+
+	margin-left: 5%;
+	margin-right: 5%;
+	width: 90%;
+
+}
+
+.Columna-Producto {
+
+	height: 300px;
+	margin-right: 8%;
+
+}
+
+.Producto-Imagen{
+
+	width: 100%;
+	height: 185px;
+
+}
+
+.Producto-Descripcion{
+
+	padding-top: 10px;
+	width: 100%;
+	height: 75px;
+
+}
+
+.Producto-Precio{
+
+	width: 100%;
+	height: 40px;
+
+}
+
+.Columna-Producto p {
+
+	margin: 0;
+	padding-left: 5%;
+	padding-right: 5%;
+	font-size: 18px;
+	text-align: justify;
+	font-size: 22px;
+	color: black;
+
+}
+
+.Producto-Precio p{
+
+	padding-top: 10px;
+	text-align: center;
+	font-size: 24px;
+	font-family: 'Stylish', sans-serif;
+	color: rgb(7,46,255);
+	font-weight: bold;
+
+}
+
+.Columna-Producto:hover {
+
+	 border: 1px solid #fff;
+	 box-shadow: 0px 0px 10px 6px rgba(46,45,46,0.76);
+}	
+
+#OCULTAR {
+
+	display: none;
+}
+
+	/*Imagenes*/
+#T_Original img{
+
+	height: 100%;
+	width: 100%;
+}
+#T_P49 img {
+
+	padding-top: 15px;
+	height: 90%;
+	width: 60%;
+	margin-left: 20%;
+}
+
+#T_P4916 img {
+
+	padding-left: 10%;
+	height: 100%;
+	width: 80%;
+
+}
+
+#T_P4917 img {
+
+	padding-top: 25px;
+	padding-left: 15%; 
+	width: 70%;
+	height: 80%;
+}
+
+#T_P492 img {
+
+	padding-top: 25px;
+	padding-left: 15%; 
+	width: 70%;
+	height: 80%;
+}
+
+#B_PM img {
+
+	padding-top: 10px;
+	padding-left: 22%;
+	width: 55%;
+	height: 90%;
+
+}
+
+#F_FTC img {
+
+	padding-top: 30px;
+	padding-left: 24%;
+	width: 50%;
+	height: 75%;
+}
+
+#F_F48 img {
+
+	padding-top: 30px;
+	padding-left: 24%;
+	width: 50%;
+	height: 75%;
+}
+
+#F_24 img {
+
+	padding-top: 30px;
+	padding-left: 24%;
+	width: 50%;
+	height: 75%;
+}
+
+#N_A57 img {
+
+	padding-top: 30px;
+	padding-left: 30%;
+	width: 40%;
+	height: 75%;
+
+}
+
+#N_48 img {
+
+	padding-top: 30px;
+	padding-left: 25%;
+	width: 50%;
+	height: 70%;
+
+}
+
+
+/* ----- Diseño Foter -----*/
+.ContPiePagina {
+
+	width: 100%;
+
+}
+
+.ContPiePagina p {
+	
+	margin: 0;	
+	color: white;
+	font-size: 14px;
+	text-align: center;
+}
+
+#By {
+	font-size: 10px;
+}
+
+#DeltaG {
+	text-decoration: none;
+}
+
+					/* RESPONSIVE */
+
+/* Dispositivos Muy Pequeños (Telefónos Menor A 360px) */
+@media(max-width:360px){
+
+	.Columna-Producto {
+
+		width: 100%;
+		margin-bottom: 10px;
+		border-bottom: 3px solid rgba(0,0,0,0.2);
+	}
+
+}
+
+/* Dispositivos Muy Pequeños (Telefónos Mayor A 360px) */
+@media(min-width:360px){
+
+	.Columna-Producto {
+
+		margin-left: 8%;
+		margin-right: 8%;
+		width: 84%;
+		height: 390px;
+		margin-bottom: 10px;
+		border-bottom: 3px solid rgba(0,0,0,0.2);
+
+	}
+
+	.Producto-Descripcion {
+
+		height: 120px;
+	}
+
+}
+
+/* Dispositivos Pequeños (Tablets Y Telefonos Mayor A 600px) */
+@media(min-width:600px){
+
+	.ContCatalogo {
+
+		width: 100%;
+	}
+
+	.Fila-Producto {
+		margin: 0;
+		width: 100%;
+		height: 500px;
+		display: inline-block;
+		margin-top: 10px;
+		border-bottom: 3px solid rgba(0,0,0,0.2);
+	}
+
+	.Columna-Producto {
+
+		margin: 0;
+		margin-left: 2%;
+		display: inline-block;
+		width: 30%;
+		height: 520px;
+		border: none;
+	}
+
+	.Producto-Imagen {
+
+		height: 220px;
+
+	}
+
+	.Producto-Descripcion {
+
+		width: 100%;
+		height: 190px;
+	}
+
+	.Producto-Precio {
+
+		height: 40px;
+	}
+	
+
+	.Columna-Producto p {
+
+	margin: 0;
+	padding-left: 5%;
+	padding-right: 5%;
+	font-size: 18px;
+	text-align: justify;
+	font-size: 22px;
+
+	}
+
+	.Producto-Precio p{
+
+	padding-top: 10px;
+	text-align: center;
+	font-size: 24px;
+	font-family: 'Stylish', sans-serif;
+	color: rgb(7,46,255);
+	font-weight: bold;
+
+	}
+
+}
+
+/* Dispositivos Medianos (Mayores A 768px)*/
+@media(min-width:768px){
+
+	.Fila-Producto {
+		margin: 0;
+		width: 100%;
+		height: 430px;
+		display: inline-block;
+		margin-top: 10px;
+		border-bottom: 3px solid rgba(0,0,0,0.2);
+	}
+
+	.Columna-Producto {
+
+		height: 420px;
+	}
+
+	.Producto-Descripcion {
+
+		height: 130px;
+	}
+
+}
+
+/* Dispositivos Grandes (Laptop/Escritorio Mayores A 992px) */
+@media(min-width:992px){
+
+	.Fila-Producto {
+		margin: 0;
+		width: 100%;
+		height: 400px;
+		display: inline-block;
+		margin-top: 10px;
+		border-bottom: 3px solid rgba(0,0,0,0.2);
+	}
+
+	.Columna-Producto {
+
+		height: 400px;	
+	}
+
+	.Producto-Descripcion {
+
+		height: 110px;
+	}
+
+}
+
+/* Dispositivos ExtraGrandes (Mayores A 1200px) */
+@media(min-width:1100px){
+
+
+	.Fila-Producto {
+		margin: 0;
+		width: 100%;
+		height: 480px;
+		display: inline-block;
+		margin-top: 10px;
+		border-bottom: 3px solid rgba(0,0,0,0.2);
+	}
+
+	.Columna-Producto {
+
+		height: 380px;	
+	}
+
+	.Producto-Descripcion {
+
+		height: 110px;
+	}
+}
