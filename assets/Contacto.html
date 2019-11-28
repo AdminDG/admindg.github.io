@@ -3,6 +3,12 @@
 	<head>
 		
 		<title> Catalogo: Detalles De Producto </title>
+
+		<!-- Archivo JS -->
+
+		<script src="https://smtpjs.com/v3/smtp.js"></script>
+		<script src="../scripts/jsContacto.js"></script>
+
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width,initial-scale=1.0">
 		<meta name="keywords" content="sellos,trodat,seguridad industrial,fotopolimeros,suministros,proservi,sellosoficina">
@@ -10,12 +16,7 @@
 		<!-- Archivo CSS -->
 		<link rel="stylesheet" type="text/css" href="styleContacto.css">
 
-		<!-- Fuentes -->
-		<link href = "https://fonts.googleapis.com/css?family= Stylish " rel = "stylesheet">
 
-		<link href="https://fonts.googleapis.com/css?family=Barlow+Condensed&display=swap" rel="stylesheet">
-
-		<link href="https://fonts.googleapis.com/css?family=Karla|Kaushan+Script&display=swap" rel="stylesheet">
 
 	</head>
 	<body>
@@ -61,8 +62,9 @@
 							<div class="Cont-Mensaje">
 
 
-								<form name="miformulario" id="miformulario" method="get">
-									<div class="Titulo-Mensaje">									<p>ESCRIBENOS UN MENSAJE</p>		
+								<form name="miformulario" id="miformulario"  method="post">
+									<div class="Titulo-Mensaje">
+										<p>ESCRIBENOS UN MENSAJE</p>		
 									</div>
 									<div class="Div-NM">
 										<input type="text" name="NombreMensaje" id="imputMensaje" placeholder="Nombre">
@@ -71,17 +73,17 @@
 										<input type="email" name="EmailMensaje" id="imputMensaje" placeholder="correo" required>
 									</div>
 									<div class="Div-TM">
-										<input type="tel" name="TelefonoMensaje" id="imputMensaje" placeholder="telefono">
+										<input type="text" name="AsuntoMensaje" id="imputMensaje" placeholder="Asunto" required>
 									</div>
-									<div class="Div-LM">
+							        <div class="Div-LM">
 
 										<p>
-										<textarea name="LetraMensaje" id="imputMensaje" maxlength="500"  required>
+										<textarea type="text"  name="LetraMensaje" id="LetraMensaje"  maxlength="500" required>
 										</textarea>
 										</p>
 									
 									<div class="Div-BM">
-										<input type="submit" id="imputMensaje" value="enviar datos">
+										<input type="button" id="enviarDatos" value="enviar datos"  onclick="validateForm()" >
 									</div>
 
 									</div>
@@ -101,19 +103,27 @@
 								<div class="Contactos-Cuadro">
 
 									<div class="CC-Contacto">
-										<img src="../images/LogoFace.png">
+										<a href="https://www.facebook.com/proservis/">
+											<img src="../images/LogoFace.png">
+										</a>
 									</div>
 
 									<div class="CC-Contacto">
-										<img src="../images/Logo-Whatsapp.png">
+										<a href="https://api.whatsapp.com/">
+											<img src="../images/Logo-Whatsapp.png">
+										</a>
 									</div>
 
 									<div class="CC-Contacto">
-										<img src="../images/Logo-Whatsapp.png">
+										<a href="https://api.whatsapp.com/send?phone=50256940749">
+											<img src="../images/Logo-Whatsapp.png">
+										</a>
 									</div>
 
 									<div class="CC-Contacto">
-										<img src="../images/Logo1.png">
+										<a href="http://www.deltagweb.com">
+											<img src="../images/Logo1.png">
+										</a>
 									</div>
 								</div>
 							
